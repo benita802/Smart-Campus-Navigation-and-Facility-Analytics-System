@@ -20,8 +20,8 @@ struct Facility {
         buildingName = "";
     }
 
-    Facility(string id, string facility, string cat, string building)
-    {
+    Facility(string id, string facility, string cat, string building) {
+        
         facilityID = id;
         facilityname = facility;
         category = cat;
